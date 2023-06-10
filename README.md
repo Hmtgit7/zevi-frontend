@@ -9,8 +9,18 @@ visit here :- https://statuesque-hamster-395de9.netlify.app/
 # preview of the project
 ![Screenshot](./public/Screenshot%202023-06-10%20122613.png)
 
-[Screenshot](./public/Screenshot%202023-06-10%20122613.png)
+![Screenshot](./public/Screenshot%202023-06-10%20122621.png)
 
+![Screenshot](./public/Screenshot%202023-06-10%20122641.png)
+
+![Screenshot](./public/Screenshot%202023-06-10%20122652.png)
+
+![Screenshot](./public/Screenshot%202023-06-10%20122713.png)
+
+# Tech stack
+* React.js
+* Tailwind Css
+* Graphql api
 
 ## Available Scripts
 
