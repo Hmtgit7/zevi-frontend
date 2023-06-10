@@ -1,6 +1,6 @@
 import React from "react";
 
-import { displayFilters, applyFilters } from "../filterOptions";
+import { displayFilters, applyFilters } from "../FilterOptions";
 import Filter from "./Filter";
 import Product from "./Product";
 
