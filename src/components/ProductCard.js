@@ -7,7 +7,7 @@ const ProductCard = ({ prod }) => {
 
   //   handling like icon toggle
   const handleFavourite = () => {
-    setFavorite((prev) => !prev);
+        setFavorite((prev) => !prev);
   };
 
   return (
