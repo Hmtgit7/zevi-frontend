@@ -1,28 +1,23 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import Main from './components/Main';
+import SearchBar from './components/SearchBar';
+import useCommonStore from './store';
+const App = () => {
+  const products = useCommonStore((state) => state.products);
+  const fetchData = useCommonStore((state) => state.fetchData);
 
-import Search from "./components/Search";
-import ProductList from "./components/ProductList";
-import { getProducts } from "./data";
-import Logo from "./Logo";
-
-export default function App() {
-  const [products, setProducts] = React.useState([]);
-
-  function handleProductSearch() {
-    setProducts(getProducts());
-  }
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   return (
-    <main className={products.length > 0 ? "" : "background"}>
-      <div
-        className={`logo-searchbar-container ${
-          products.length > 0 ? "product-logo-searchbar-container" : ""
-        }`}
-      >
-        <Logo />
-        <Search onProductSearch={handleProductSearch} />
+    <div className="max-w-7xl main-wrapper h-screen  mx-auto ">
+      <div className="h-full  bg-black bg-opacity-10  ">
+        <SearchBar suggestions={products} />
+        <Main />
       </div>
-      {products.length > 0 && <ProductList products={products} />}
-    </main>
+    </div>
   );
-}
+};
+
+export default App;
