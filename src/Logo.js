@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './Images/zevi logo.png'
+import logo from './assests/zevi logo.png'
 
 export default function Logo() {
   return (
