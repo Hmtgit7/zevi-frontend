@@ -7,7 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 visit here :- https://statuesque-hamster-395de9.netlify.app/
 
 # preview of the project
-<img src="./public/Screenshot 2023-06-10 122613.png">
+![Screenshot](./public/Screenshot%202023-06-10%20122613.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
