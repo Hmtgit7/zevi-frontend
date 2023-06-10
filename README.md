@@ -9,6 +9,9 @@ visit here :- https://statuesque-hamster-395de9.netlify.app/
 # preview of the project
 ![Screenshot](./public/Screenshot%202023-06-10%20122613.png)
 
+[Screenshot](./public/Screenshot%202023-06-10%20122613.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
